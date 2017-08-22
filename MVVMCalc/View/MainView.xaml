@@ -24,7 +24,7 @@
         <!-- ラベル -->
         <Label Content="左辺値：" />
         <Label Content="計算方法：" Grid.Row="1" />
-        <Label Content="右辺値" Grid.Row="2" />
+        <Label Content="右辺値：" Grid.Row="2" />
 
         <!-- 入力項目 -->
         <TextBox Text="{Binding Path=Lhs, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" />
